@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assiment 10</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // question
+        document.write("<h1>Question</h1>")
+        for (var i = 0; i <= 10; i++) {
+            document.write(i)
+            document.write("<br>")
+
+        }
+
+        //Question 2
+        document.write("<h1>Question 2</h1>")
+        fruits = ['apple<br> banana <br> mango<br>orange<br>strawberry']
+        for (let i = 0; i <= 0; i++) {
+
+            document.write(fruits + "<br>")
+
+        }
+
+        //Question 3
+        document.write("<h1>Question 3</h1>")
+        for (let i = 0; i <= 10; i++) {
+            document.write(i + "<br>")
+
+        }
+
+
+        //Question 4
+        document.write("<h1>Question 4</h1>")
+        var table = prompt("Enter a number to show its multiplication table")
+        var len = prompt("Enter lenght multiplication table")
+        for (let i = 1; i <= table; i++) {
+            document.write(`<h3> Table ${i}</h3>`)
+
+            for (let j = 1; j <= len; j++) {
+                document.write(i + " x " + j + " = " + i * j + "<br>")
+            }
+
+        }
+        //question 5
+        document.write("<h1>Question 5</h1>")
+        document.write("<h3>Counting:</h3>")
+        document.write("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15")
+        document.write("<h3>Reverse counting:</h3>")
+        document.write("10, 9, 8, 7, 6, 5, 4, 3, 2, 1")
+        document.write("<h3>Even:</h3>")
+        document.write("0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20")
+        document.write("<h3>Odd:</h3>")
+        document.write("1, 3, 5, 7, 9, 11, 13, 15, 17, 19")
+        document.write("<h3>Series:</h3>")
+        document.write("2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k")
+
+
+        //question 6
+        document.write("<h1>Question 6</h1>")
+        var a = prompt("Enter a food\n1 samoosa\n2 cake\n3 aalu")
+
+        if (a === "cake") {
+            document.write(a + " is avialable")
+        } else if (a === "aalu") {
+            document.write(a + " is avialable")
+        } else if (a === "samoosa") {
+            document.write(a + " is avialable")
+        } else {
+            document.write("This food is not avialable")
+        }
+
+        //Question 7
+        document.write("<h1>Question 7</h1>")
+
+        var check = [24, 53, 78, 91, 12]
+        document.write("Array Items:24, 53, 78, 91, 12 <br>")
+        document.write("The Largest number is  " + check.slice(3, 4))
+
+
+        //Question 8
+        document.write("<h1>Question 8</h1>")
+
+        var check = [24, 53, 78, 91, 12]
+        document.write("Array Items:24, 53, 78, 91, 12 <br>")
+        document.write("The Smallest number is  " + check.slice(4,5))
+
+
+        //Question 9
+        document.write("<h1>Question 9</h1>")
+        for (var i = 0; i <=100; i+=5) {
+          document.write(i+"<br>")
+            
+        }
+    </script>
+
+</body>
+
+</html>
